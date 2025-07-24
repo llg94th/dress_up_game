@@ -1,0 +1,1770 @@
+[
+  {
+    "original_path": "base_body.png",
+    "flutter_path": "base_body_png",
+    "x": 964,
+    "y": 492,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Blush/2.png",
+    "flutter_path": "blush/2_png",
+    "x": 1174,
+    "y": 993,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Blush/1.png",
+    "flutter_path": "blush/1_png",
+    "x": 1175,
+    "y": 1013,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Ahoge/Dark.png",
+    "flutter_path": "ahoge/dark_png",
+    "x": 1213,
+    "y": 184,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Ahoge/Blond.png",
+    "flutter_path": "ahoge/blond_png",
+    "x": 1213,
+    "y": 184,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Ahoge/Pink.png",
+    "flutter_path": "ahoge/pink_png",
+    "x": 1213,
+    "y": 184,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Ahoge/Blue.png",
+    "flutter_path": "ahoge/blue_png",
+    "x": 1213,
+    "y": 184,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Ahoge/green.png",
+    "flutter_path": "ahoge/green_png",
+    "x": 1213,
+    "y": 184,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Ahoge/Silver.png",
+    "flutter_path": "ahoge/silver_png",
+    "x": 1213,
+    "y": 184,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Ahoge/Brown.png",
+    "flutter_path": "ahoge/brown_png",
+    "x": 1213,
+    "y": 184,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Ahoge/red.png",
+    "flutter_path": "ahoge/red_png",
+    "x": 1213,
+    "y": 184,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Costume/School uniform 3.png",
+    "flutter_path": "costume/school_uniform_3_png",
+    "x": 943,
+    "y": 1338,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Costume/School Uniform 2.png",
+    "flutter_path": "costume/school_uniform_2_png",
+    "x": 933,
+    "y": 1378,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Costume/Lab Coat.png",
+    "flutter_path": "costume/lab_coat_png",
+    "x": 943,
+    "y": 1338,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Costume/swimsuit 4.png",
+    "flutter_path": "costume/swimsuit_4_png",
+    "x": 1068,
+    "y": 1434,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Costume/School Uniform 1.png",
+    "flutter_path": "costume/school_uniform_1_png",
+    "x": 933,
+    "y": 1378,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Costume/Pajama.png",
+    "flutter_path": "costume/pajama_png",
+    "x": 960,
+    "y": 1372,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Costume/Casual Clothing5.png",
+    "flutter_path": "costume/casual_clothing5_png",
+    "x": 907,
+    "y": 1447,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Costume/Swimsuit 5.png",
+    "flutter_path": "costume/swimsuit_5_png",
+    "x": 1038,
+    "y": 1653,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Costume/School uniform 5.png",
+    "flutter_path": "costume/school_uniform_5_png",
+    "x": 943,
+    "y": 1338,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Costume/School uniform 4.png",
+    "flutter_path": "costume/school_uniform_4_png",
+    "x": 943,
+    "y": 1338,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Costume/Sswimsuit.png",
+    "flutter_path": "costume/sswimsuit_png",
+    "x": 1066,
+    "y": 1405,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Costume/swimsuit 2.png",
+    "flutter_path": "costume/swimsuit_2_png",
+    "x": 1068,
+    "y": 1434,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Costume/School uniform 6.png",
+    "flutter_path": "costume/school_uniform_6_png",
+    "x": 943,
+    "y": 1338,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Costume/Pajama 2.png",
+    "flutter_path": "costume/pajama_2_png",
+    "x": 960,
+    "y": 1372,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Costume/swimsuit 3.png",
+    "flutter_path": "costume/swimsuit_3_png",
+    "x": 1068,
+    "y": 1434,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Costume/Kimono 1.png",
+    "flutter_path": "costume/kimono_1_png",
+    "x": 848,
+    "y": 1380,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Costume/Towel.png",
+    "flutter_path": "costume/towel_png",
+    "x": 1067,
+    "y": 1711,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Costume/Kimono 2.png",
+    "flutter_path": "costume/kimono_2_png",
+    "x": 848,
+    "y": 1380,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Costume/Kimono 3.png",
+    "flutter_path": "costume/kimono_3_png",
+    "x": 848,
+    "y": 1390,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Costume/Hoodie 1.png",
+    "flutter_path": "costume/hoodie_1_png",
+    "x": 960,
+    "y": 1344,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Costume/Casual Clothing 9.png",
+    "flutter_path": "costume/casual_clothing_9_png",
+    "x": 1066,
+    "y": 1338,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Costume/Casual Clothing 8.png",
+    "flutter_path": "costume/casual_clothing_8_png",
+    "x": 943,
+    "y": 1337,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Costume/Winter outfit2.png",
+    "flutter_path": "costume/winter_outfit2_png",
+    "x": 960,
+    "y": 1297,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Costume/Casual Clothing 4.png",
+    "flutter_path": "costume/casual_clothing_4_png",
+    "x": 935,
+    "y": 1412,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Costume/Summer Dress.png",
+    "flutter_path": "costume/summer_dress_png",
+    "x": 1067,
+    "y": 1437,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Costume/Casual Clothing.png",
+    "flutter_path": "costume/casual_clothing_png",
+    "x": 935,
+    "y": 1465,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Costume/Black hoodie.png",
+    "flutter_path": "costume/black_hoodie_png",
+    "x": 921,
+    "y": 1347,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Costume/Casual Clothing 6.png",
+    "flutter_path": "costume/casual_clothing_6_png",
+    "x": 1066,
+    "y": 1406,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Costume/Casual Clothing 7.png",
+    "flutter_path": "costume/casual_clothing_7_png",
+    "x": 943,
+    "y": 1337,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Costume/Winter outfit.png",
+    "flutter_path": "costume/winter_outfit_png",
+    "x": 960,
+    "y": 1297,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Costume/Casual Clothing 3.png",
+    "flutter_path": "costume/casual_clothing_3_png",
+    "x": 935,
+    "y": 1465,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Costume/Casual Clothing 2.png",
+    "flutter_path": "costume/casual_clothing_2_png",
+    "x": 935,
+    "y": 1465,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Costume/PE uniform.png",
+    "flutter_path": "costume/pe_uniform_png",
+    "x": 960,
+    "y": 1297,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Costume/Underwear 1.png",
+    "flutter_path": "costume/underwear_1_png",
+    "x": 1067,
+    "y": 1447,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Costume/Underwear 3.png",
+    "flutter_path": "costume/underwear_3_png",
+    "x": 1067,
+    "y": 1447,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Costume/Underwear 2.png",
+    "flutter_path": "costume/underwear_2_png",
+    "x": 1067,
+    "y": 1447,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Costume/Maid.png",
+    "flutter_path": "costume/maid_png",
+    "x": 880,
+    "y": 1338,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Accessories Front/Yellow Ribbon.png",
+    "flutter_path": "accessories_front/yellow_ribbon_png",
+    "x": 1602,
+    "y": 489,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Accessories Front/Rose.png",
+    "flutter_path": "accessories_front/rose_png",
+    "x": 1044,
+    "y": 747,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Accessories Front/Rose 2.png",
+    "flutter_path": "accessories_front/rose_2_png",
+    "x": 1044,
+    "y": 747,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Accessories Front/Circle Glasses.png",
+    "flutter_path": "accessories_front/circle_glasses_png",
+    "x": 1163,
+    "y": 970,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Accessories Front/ribbon.png",
+    "flutter_path": "accessories_front/ribbon_png",
+    "x": 1599,
+    "y": 728,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Accessories Front/Band 1.png",
+    "flutter_path": "accessories_front/band_1_png",
+    "x": 1157,
+    "y": 448,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Accessories Front/Band 2.png",
+    "flutter_path": "accessories_front/band_2_png",
+    "x": 1157,
+    "y": 448,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Accessories Front/Flower.png",
+    "flutter_path": "accessories_front/flower_png",
+    "x": 1684,
+    "y": 859,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Accessories Front/Band3.png",
+    "flutter_path": "accessories_front/band3_png",
+    "x": 1157,
+    "y": 448,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Accessories Front/Black Glasses.png",
+    "flutter_path": "accessories_front/black_glasses_png",
+    "x": 1164,
+    "y": 980,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Accessories Front/Red Glasses.png",
+    "flutter_path": "accessories_front/red_glasses_png",
+    "x": 1164,
+    "y": 980,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Accessories Front/Choker.png",
+    "flutter_path": "accessories_front/choker_png",
+    "x": 1350,
+    "y": 1316,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Accessories Front/White ribbon.png",
+    "flutter_path": "accessories_front/white_ribbon_png",
+    "x": 1602,
+    "y": 489,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Accessories Front/Black ribbon.png",
+    "flutter_path": "accessories_front/black_ribbon_png",
+    "x": 1602,
+    "y": 489,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Expression/Sad.png",
+    "flutter_path": "expression/sad_png",
+    "x": 1194,
+    "y": 845,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Expression/Laugh.png",
+    "flutter_path": "expression/laugh_png",
+    "x": 1202,
+    "y": 868,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Expression/Annoyed.png",
+    "flutter_path": "expression/annoyed_png",
+    "x": 1192,
+    "y": 861,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Expression/Smile 2.png",
+    "flutter_path": "expression/smile_2_png",
+    "x": 1202,
+    "y": 868,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Expression/Sleepy.png",
+    "flutter_path": "expression/sleepy_png",
+    "x": 1202,
+    "y": 868,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Expression/Angry.png",
+    "flutter_path": "expression/angry_png",
+    "x": 1204,
+    "y": 834,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Expression/normal.png",
+    "flutter_path": "expression/normal_png",
+    "x": 1198,
+    "y": 868,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Expression/Shocked.png",
+    "flutter_path": "expression/shocked_png",
+    "x": 1183,
+    "y": 787,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Expression/:o.png",
+    "flutter_path": "expression/o_png",
+    "x": 1198,
+    "y": 868,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Expression/Color Edit.png",
+    "flutter_path": "expression/color_edit_png",
+    "x": 0,
+    "y": 0,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Expression/Smug.png",
+    "flutter_path": "expression/smug_png",
+    "x": 1192,
+    "y": 861,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Expression/Delighted.png",
+    "flutter_path": "expression/delighted_png",
+    "x": 1198,
+    "y": 868,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Expression/Smile.png",
+    "flutter_path": "expression/smile_png",
+    "x": 1198,
+    "y": 868,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Short/Pink.png",
+    "flutter_path": "hair_front/short/pink_png",
+    "x": 1107,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Short/Blue.png",
+    "flutter_path": "hair_front/short/blue_png",
+    "x": 1107,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Short/Dark Copy.png",
+    "flutter_path": "hair_front/short/dark_copy_png",
+    "x": 1107,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Short/Blondie Copy.png",
+    "flutter_path": "hair_front/short/blondie_copy_png",
+    "x": 1107,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Short/Green.png",
+    "flutter_path": "hair_front/short/green_png",
+    "x": 1107,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Short/Silver.png",
+    "flutter_path": "hair_front/short/silver_png",
+    "x": 1107,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Short/Brown.png",
+    "flutter_path": "hair_front/short/brown_png",
+    "x": 1107,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Short/red.png",
+    "flutter_path": "hair_front/short/red_png",
+    "x": 1107,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Short Bob/Dark.png",
+    "flutter_path": "hair_front/short_bob/dark_png",
+    "x": 939,
+    "y": 383,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Short Bob/Pink.png",
+    "flutter_path": "hair_front/short_bob/pink_png",
+    "x": 939,
+    "y": 383,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Short Bob/Blue.png",
+    "flutter_path": "hair_front/short_bob/blue_png",
+    "x": 939,
+    "y": 383,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Short Bob/Blondie.png",
+    "flutter_path": "hair_front/short_bob/blondie_png",
+    "x": 939,
+    "y": 383,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Short Bob/green.png",
+    "flutter_path": "hair_front/short_bob/green_png",
+    "x": 939,
+    "y": 383,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Short Bob/Silver.png",
+    "flutter_path": "hair_front/short_bob/silver_png",
+    "x": 939,
+    "y": 383,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Short Bob/Brown.png",
+    "flutter_path": "hair_front/short_bob/brown_png",
+    "x": 939,
+    "y": 383,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Short Bob/red.png",
+    "flutter_path": "hair_front/short_bob/red_png",
+    "x": 939,
+    "y": 383,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Side/Dark.png",
+    "flutter_path": "hair_front/side/dark_png",
+    "x": 1107,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Side/Blond.png",
+    "flutter_path": "hair_front/side/blond_png",
+    "x": 1107,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Side/Pink.png",
+    "flutter_path": "hair_front/side/pink_png",
+    "x": 1107,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Side/Blue.png",
+    "flutter_path": "hair_front/side/blue_png",
+    "x": 1107,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Side/Green.png",
+    "flutter_path": "hair_front/side/green_png",
+    "x": 1107,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Side/Silver.png",
+    "flutter_path": "hair_front/side/silver_png",
+    "x": 1107,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Side/Brown.png",
+    "flutter_path": "hair_front/side/brown_png",
+    "x": 1107,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Side/red.png",
+    "flutter_path": "hair_front/side/red_png",
+    "x": 1107,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Curl/Silvr.png",
+    "flutter_path": "hair_front/curl/silvr_png",
+    "x": 1107,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Curl/Dark.png",
+    "flutter_path": "hair_front/curl/dark_png",
+    "x": 1107,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Curl/Blond.png",
+    "flutter_path": "hair_front/curl/blond_png",
+    "x": 1107,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Curl/Pink.png",
+    "flutter_path": "hair_front/curl/pink_png",
+    "x": 1107,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Curl/Blue.png",
+    "flutter_path": "hair_front/curl/blue_png",
+    "x": 1107,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Curl/green.png",
+    "flutter_path": "hair_front/curl/green_png",
+    "x": 1107,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Curl/Brown.png",
+    "flutter_path": "hair_front/curl/brown_png",
+    "x": 1107,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Curl/red.png",
+    "flutter_path": "hair_front/curl/red_png",
+    "x": 1107,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Long/Dark.png",
+    "flutter_path": "hair_front/long/dark_png",
+    "x": 1080,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Long/Pink.png",
+    "flutter_path": "hair_front/long/pink_png",
+    "x": 1080,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Long/Blue.png",
+    "flutter_path": "hair_front/long/blue_png",
+    "x": 1080,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Long/Blondie.png",
+    "flutter_path": "hair_front/long/blondie_png",
+    "x": 1080,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Long/Green.png",
+    "flutter_path": "hair_front/long/green_png",
+    "x": 1080,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Long/Silver.png",
+    "flutter_path": "hair_front/long/silver_png",
+    "x": 1080,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Long/Brown.png",
+    "flutter_path": "hair_front/long/brown_png",
+    "x": 1080,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Long/red.png",
+    "flutter_path": "hair_front/long/red_png",
+    "x": 1080,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Middle Part/Dark.png",
+    "flutter_path": "hair_front/middle_part/dark_png",
+    "x": 1107,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Middle Part/Blond.png",
+    "flutter_path": "hair_front/middle_part/blond_png",
+    "x": 1107,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Middle Part/Pink.png",
+    "flutter_path": "hair_front/middle_part/pink_png",
+    "x": 1107,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Middle Part/Blue.png",
+    "flutter_path": "hair_front/middle_part/blue_png",
+    "x": 1107,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Middle Part/Green.png",
+    "flutter_path": "hair_front/middle_part/green_png",
+    "x": 1107,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Middle Part/Silver.png",
+    "flutter_path": "hair_front/middle_part/silver_png",
+    "x": 1107,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Middle Part/Brown.png",
+    "flutter_path": "hair_front/middle_part/brown_png",
+    "x": 1107,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Middle Part/Red.png",
+    "flutter_path": "hair_front/middle_part/red_png",
+    "x": 1107,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Hime Cut/Dark.png",
+    "flutter_path": "hair_front/hime_cut/dark_png",
+    "x": 1107,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Hime Cut/Pink.png",
+    "flutter_path": "hair_front/hime_cut/pink_png",
+    "x": 1107,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Hime Cut/Blue.png",
+    "flutter_path": "hair_front/hime_cut/blue_png",
+    "x": 1107,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Hime Cut/Blondie.png",
+    "flutter_path": "hair_front/hime_cut/blondie_png",
+    "x": 1107,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Hime Cut/Green.png",
+    "flutter_path": "hair_front/hime_cut/green_png",
+    "x": 1107,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Hime Cut/Silver.png",
+    "flutter_path": "hair_front/hime_cut/silver_png",
+    "x": 1107,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Hime Cut/Brown.png",
+    "flutter_path": "hair_front/hime_cut/brown_png",
+    "x": 1107,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Hime Cut/red.png",
+    "flutter_path": "hair_front/hime_cut/red_png",
+    "x": 1107,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Hime cut short/Dark.png",
+    "flutter_path": "hair_front/hime_cut_short/dark_png",
+    "x": 1107,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Hime cut short/Pink.png",
+    "flutter_path": "hair_front/hime_cut_short/pink_png",
+    "x": 1107,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Hime cut short/Blue.png",
+    "flutter_path": "hair_front/hime_cut_short/blue_png",
+    "x": 1107,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Hime cut short/blondie.png",
+    "flutter_path": "hair_front/hime_cut_short/blondie_png",
+    "x": 1107,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Hime cut short/green.png",
+    "flutter_path": "hair_front/hime_cut_short/green_png",
+    "x": 1107,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Hime cut short/Silver.png",
+    "flutter_path": "hair_front/hime_cut_short/silver_png",
+    "x": 1107,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Hime cut short/Brown.png",
+    "flutter_path": "hair_front/hime_cut_short/brown_png",
+    "x": 1107,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair front/Hime cut short/red.png",
+    "flutter_path": "hair_front/hime_cut_short/red_png",
+    "x": 1107,
+    "y": 468,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Short Curly/Dark.png",
+    "flutter_path": "hair_behind/short_curly/dark_png",
+    "x": 858,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Short Curly/Blond.png",
+    "flutter_path": "hair_behind/short_curly/blond_png",
+    "x": 858,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Short Curly/Pink.png",
+    "flutter_path": "hair_behind/short_curly/pink_png",
+    "x": 858,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Short Curly/Blue.png",
+    "flutter_path": "hair_behind/short_curly/blue_png",
+    "x": 858,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Short Curly/Green.png",
+    "flutter_path": "hair_behind/short_curly/green_png",
+    "x": 858,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Short Curly/Silver.png",
+    "flutter_path": "hair_behind/short_curly/silver_png",
+    "x": 858,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Short Curly/Brown.png",
+    "flutter_path": "hair_behind/short_curly/brown_png",
+    "x": 858,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Short Curly/Red.png",
+    "flutter_path": "hair_behind/short_curly/red_png",
+    "x": 858,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Short Hair/Dark.png",
+    "flutter_path": "hair_behind/short_hair/dark_png",
+    "x": 989,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Short Hair/Pink.png",
+    "flutter_path": "hair_behind/short_hair/pink_png",
+    "x": 989,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Short Hair/Blue.png",
+    "flutter_path": "hair_behind/short_hair/blue_png",
+    "x": 989,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Short Hair/Blondie.png",
+    "flutter_path": "hair_behind/short_hair/blondie_png",
+    "x": 989,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Short Hair/green.png",
+    "flutter_path": "hair_behind/short_hair/green_png",
+    "x": 989,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Short Hair/Silver.png",
+    "flutter_path": "hair_behind/short_hair/silver_png",
+    "x": 989,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Short Hair/Brown.png",
+    "flutter_path": "hair_behind/short_hair/brown_png",
+    "x": 989,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Short Hair/red.png",
+    "flutter_path": "hair_behind/short_hair/red_png",
+    "x": 989,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Short Bob/Dark.png",
+    "flutter_path": "hair_behind/short_bob/dark_png",
+    "x": 1024,
+    "y": 725,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Short Bob/Pink.png",
+    "flutter_path": "hair_behind/short_bob/pink_png",
+    "x": 1024,
+    "y": 725,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Short Bob/Blue.png",
+    "flutter_path": "hair_behind/short_bob/blue_png",
+    "x": 1024,
+    "y": 725,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Short Bob/Blondie.png",
+    "flutter_path": "hair_behind/short_bob/blondie_png",
+    "x": 1024,
+    "y": 725,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Short Bob/green.png",
+    "flutter_path": "hair_behind/short_bob/green_png",
+    "x": 1024,
+    "y": 725,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Short Bob/Silver.png",
+    "flutter_path": "hair_behind/short_bob/silver_png",
+    "x": 1024,
+    "y": 725,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Short Bob/Brown.png",
+    "flutter_path": "hair_behind/short_bob/brown_png",
+    "x": 1024,
+    "y": 725,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Short Bob/red.png",
+    "flutter_path": "hair_behind/short_bob/red_png",
+    "x": 1024,
+    "y": 725,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Long Curl/Dark.png",
+    "flutter_path": "hair_behind/long_curl/dark_png",
+    "x": 632,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Long Curl/pink.png",
+    "flutter_path": "hair_behind/long_curl/pink_png",
+    "x": 632,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Long Curl/Blue.png",
+    "flutter_path": "hair_behind/long_curl/blue_png",
+    "x": 632,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Long Curl/Blondie.png",
+    "flutter_path": "hair_behind/long_curl/blondie_png",
+    "x": 632,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Long Curl/Green.png",
+    "flutter_path": "hair_behind/long_curl/green_png",
+    "x": 632,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Long Curl/Silver.png",
+    "flutter_path": "hair_behind/long_curl/silver_png",
+    "x": 632,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Long Curl/Brown.png",
+    "flutter_path": "hair_behind/long_curl/brown_png",
+    "x": 632,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Long Curl/red.png",
+    "flutter_path": "hair_behind/long_curl/red_png",
+    "x": 632,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Short Hair 2/Dark.png",
+    "flutter_path": "hair_behind/short_hair_2/dark_png",
+    "x": 961,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Short Hair 2/pink.png",
+    "flutter_path": "hair_behind/short_hair_2/pink_png",
+    "x": 961,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Short Hair 2/blue.png",
+    "flutter_path": "hair_behind/short_hair_2/blue_png",
+    "x": 961,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Short Hair 2/Blondie.png",
+    "flutter_path": "hair_behind/short_hair_2/blondie_png",
+    "x": 961,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Short Hair 2/green.png",
+    "flutter_path": "hair_behind/short_hair_2/green_png",
+    "x": 961,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Short Hair 2/Silver.png",
+    "flutter_path": "hair_behind/short_hair_2/silver_png",
+    "x": 961,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Short Hair 2/Brown.png",
+    "flutter_path": "hair_behind/short_hair_2/brown_png",
+    "x": 961,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Short Hair 2/red.png",
+    "flutter_path": "hair_behind/short_hair_2/red_png",
+    "x": 961,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Twin Tail/dark.png",
+    "flutter_path": "hair_behind/twin_tail/dark_png",
+    "x": 816,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Twin Tail/Pink.png",
+    "flutter_path": "hair_behind/twin_tail/pink_png",
+    "x": 816,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Twin Tail/Blue.png",
+    "flutter_path": "hair_behind/twin_tail/blue_png",
+    "x": 816,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Twin Tail/Blondie.png",
+    "flutter_path": "hair_behind/twin_tail/blondie_png",
+    "x": 816,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Twin Tail/green.png",
+    "flutter_path": "hair_behind/twin_tail/green_png",
+    "x": 816,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Twin Tail/Silver.png",
+    "flutter_path": "hair_behind/twin_tail/silver_png",
+    "x": 816,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Twin Tail/Brown.png",
+    "flutter_path": "hair_behind/twin_tail/brown_png",
+    "x": 816,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Twin Tail/red.png",
+    "flutter_path": "hair_behind/twin_tail/red_png",
+    "x": 816,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Twintail 3/Dark.png",
+    "flutter_path": "hair_behind/twintail_3/dark_png",
+    "x": 748,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Twintail 3/Blond.png",
+    "flutter_path": "hair_behind/twintail_3/blond_png",
+    "x": 748,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Twintail 3/Pink.png",
+    "flutter_path": "hair_behind/twintail_3/pink_png",
+    "x": 748,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Twintail 3/Blue.png",
+    "flutter_path": "hair_behind/twintail_3/blue_png",
+    "x": 748,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Twintail 3/green.png",
+    "flutter_path": "hair_behind/twintail_3/green_png",
+    "x": 748,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Twintail 3/Silver.png",
+    "flutter_path": "hair_behind/twintail_3/silver_png",
+    "x": 748,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Twintail 3/Brown.png",
+    "flutter_path": "hair_behind/twintail_3/brown_png",
+    "x": 748,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Twintail 3/Rred.png",
+    "flutter_path": "hair_behind/twintail_3/rred_png",
+    "x": 748,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Long Hair _ Hime Cut/Dark.png",
+    "flutter_path": "hair_behind/long_hair_hime_cut/dark_png",
+    "x": 735,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Long Hair _ Hime Cut/Pink.png",
+    "flutter_path": "hair_behind/long_hair_hime_cut/pink_png",
+    "x": 735,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Long Hair _ Hime Cut/Blue.png",
+    "flutter_path": "hair_behind/long_hair_hime_cut/blue_png",
+    "x": 735,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Long Hair _ Hime Cut/Blondie.png",
+    "flutter_path": "hair_behind/long_hair_hime_cut/blondie_png",
+    "x": 735,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Long Hair _ Hime Cut/Green.png",
+    "flutter_path": "hair_behind/long_hair_hime_cut/green_png",
+    "x": 735,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Long Hair _ Hime Cut/Silver.png",
+    "flutter_path": "hair_behind/long_hair_hime_cut/silver_png",
+    "x": 735,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Long Hair _ Hime Cut/Brown.png",
+    "flutter_path": "hair_behind/long_hair_hime_cut/brown_png",
+    "x": 735,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Long Hair _ Hime Cut/red.png",
+    "flutter_path": "hair_behind/long_hair_hime_cut/red_png",
+    "x": 735,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Twin tail 2/Dark.png",
+    "flutter_path": "hair_behind/twin_tail_2/dark_png",
+    "x": 867,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Twin tail 2/Blond.png",
+    "flutter_path": "hair_behind/twin_tail_2/blond_png",
+    "x": 867,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Twin tail 2/Pink.png",
+    "flutter_path": "hair_behind/twin_tail_2/pink_png",
+    "x": 867,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Twin tail 2/Blue.png",
+    "flutter_path": "hair_behind/twin_tail_2/blue_png",
+    "x": 867,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Twin tail 2/green.png",
+    "flutter_path": "hair_behind/twin_tail_2/green_png",
+    "x": 867,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Twin tail 2/Silver.png",
+    "flutter_path": "hair_behind/twin_tail_2/silver_png",
+    "x": 867,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Twin tail 2/Brown.png",
+    "flutter_path": "hair_behind/twin_tail_2/brown_png",
+    "x": 867,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hair behind/Twin tail 2/Red.png",
+    "flutter_path": "hair_behind/twin_tail_2/red_png",
+    "x": 867,
+    "y": 404,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hand gesture/Pajama.png",
+    "flutter_path": "hand_gesture/pajama_png",
+    "x": 1073,
+    "y": 1821,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hand gesture/School uniform.png",
+    "flutter_path": "hand_gesture/school_uniform_png",
+    "x": 1073,
+    "y": 1821,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hand gesture/Folder 16.png",
+    "flutter_path": "hand_gesture/folder_16_png",
+    "x": 1093,
+    "y": 1507,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hand gesture/winter.png",
+    "flutter_path": "hand_gesture/winter_png",
+    "x": 1073,
+    "y": 1821,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hand gesture/Black.png",
+    "flutter_path": "hand_gesture/black_png",
+    "x": 1073,
+    "y": 1821,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hand gesture/PE uniform.png",
+    "flutter_path": "hand_gesture/pe_uniform_png",
+    "x": 1073,
+    "y": 1821,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hand gesture/red 2.png",
+    "flutter_path": "hand_gesture/red_2_png",
+    "x": 1073,
+    "y": 1821,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hand gesture/Brown.png",
+    "flutter_path": "hand_gesture/brown_png",
+    "x": 1073,
+    "y": 1821,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hand gesture/white.png",
+    "flutter_path": "hand_gesture/white_png",
+    "x": 1073,
+    "y": 1821,
+    "width": 2894,
+    "height": 2096
+  },
+  {
+    "original_path": "Hand gesture/Hoodie.png",
+    "flutter_path": "hand_gesture/hoodie_png",
+    "x": 1073,
+    "y": 1821,
+    "width": 2894,
+    "height": 2096
+  }
+]
