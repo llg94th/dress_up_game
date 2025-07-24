@@ -58,9 +58,7 @@ class CharacterControls extends StatelessWidget {
   }
 
   Widget _buildContent(BuildContext context, CharacterControlsState state) {
-    if (state is CharacterControlsLoading) {
-      return _buildLoadingView(state.progress);
-    } else if (state is CharacterControlsLoaded || state is CharacterControlsUpdated) {
+    if (state is CharacterControlsLoaded || state is CharacterControlsUpdated) {
       List<String> availableGroups;
       Map<String, CharacterLayer> layers;
       
@@ -81,90 +79,19 @@ class CharacterControls extends StatelessWidget {
       return _buildControlsView(context, [], {}, true);
     }
     
-    return _buildLoadingView(0.0);
-  }
-
-  Widget _buildLoadingView(double progress) {
-    final progressPercentage = (progress * 100).toInt();
-    
-    return Center(
-      child: Padding(
-        padding: const EdgeInsets.all(20.0),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            // Circular progress indicator
-            SizedBox(
-              width: 60,
-              height: 60,
-              child: CircularProgressIndicator(
-                value: progress,
-                strokeWidth: 4,
-                backgroundColor: Colors.grey.shade300,
-                valueColor: const AlwaysStoppedAnimation<Color>(Colors.pink),
-              ),
-            ),
-            const SizedBox(height: 16),
-            
-            // Progress text
-            const Text(
-              'Loading Assets...',
-              style: TextStyle(
-                fontSize: 14,
-                fontWeight: FontWeight.w600,
-                color: Colors.pink,
-              ),
-            ),
-            const SizedBox(height: 6),
-            
-            // Progress percentage
-            Text(
-              '$progressPercentage%',
-              style: TextStyle(
-                fontSize: 13,
-                color: Colors.grey.shade600,
-              ),
-            ),
-            const SizedBox(height: 12),
-            
-            // Progress bar
-            Container(
-              width: double.infinity,
-              height: 6,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(3),
-                color: Colors.grey.shade300,
-              ),
-              child: FractionallySizedBox(
-                alignment: Alignment.centerLeft,
-                widthFactor: progress,
-                child: Container(
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(3),
-                    gradient: const LinearGradient(
-                      colors: [Colors.pink, Colors.pinkAccent],
-                    ),
-                  ),
-                ),
-              ),
-            ),
-            const SizedBox(height: 10),
-            
-            // Loading details
-            Text(
-              'Preloading sprites...',
-              style: TextStyle(
-                fontSize: 11,
-                color: Colors.grey.shade500,
-                fontStyle: FontStyle.italic,
-              ),
-              textAlign: TextAlign.center,
-            ),
-          ],
+    // Show empty state while loading (loading is now handled by overlay)
+    return const Center(
+      child: Text(
+        'Initializing...',
+        style: TextStyle(
+          fontSize: 14,
+          color: Colors.grey,
         ),
       ),
     );
   }
+
+
 
   Widget _buildControlsView(
     BuildContext context, 

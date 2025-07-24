@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flame/game.dart';
 import '../../core/game/dress_up_game.dart';
+import 'character_controls.dart';
 import 'character_controls_overlay.dart';
 import 'controls_backdrop_overlay.dart';
 import 'controls_toggle_overlay.dart';
 import 'fullscreen_toggle_overlay.dart';
+import 'loading_overlay.dart';
+import 'dart:async';
 
 class DressUpGameWidget extends StatefulWidget {
   final DressUpGame game;
@@ -21,10 +24,24 @@ class _DressUpGameWidgetState extends State<DressUpGameWidget> {
   @override
   void initState() {
     super.initState();
-    // Add toggle buttons overlay by default
+    // Add loading overlay by default
     WidgetsBinding.instance.addPostFrameCallback((_) {
-      widget.game.overlays.add('ControlsToggle');
-      widget.game.overlays.add('FullscreenToggle');
+      widget.game.overlays.add('Loading');
+    });
+    
+    // Listen to game initialization to remove loading overlay
+    _checkGameInitialization();
+  }
+
+  void _checkGameInitialization() {
+    Timer.periodic(const Duration(milliseconds: 100), (timer) {
+      if (widget.game.isInitialized) {
+        timer.cancel();
+        // Remove loading overlay and add toggle buttons
+        widget.game.overlays.remove('Loading');
+        widget.game.overlays.add('ControlsToggle');
+        widget.game.overlays.add('FullscreenToggle');
+      }
     });
   }
 
@@ -57,6 +74,7 @@ class _DressUpGameWidgetState extends State<DressUpGameWidget> {
             child: GameWidget<DressUpGame>.controlled(
               gameFactory: () => widget.game,
               overlayBuilderMap: {
+                'Loading': (context, game) => LoadingOverlay(game: game),
                 'ControlsToggle': (context, game) => ControlsToggleOverlay(
                   game: game,
                   visibilityNotifier: _controlsVisibilityNotifier,

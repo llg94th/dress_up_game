@@ -11,14 +11,7 @@ class InitializeCharacterControlsEvent extends CharacterControlsEvent {
   const InitializeCharacterControlsEvent();
 }
 
-class UpdateLoadingProgressEvent extends CharacterControlsEvent {
-  final double progress;
 
-  const UpdateLoadingProgressEvent(this.progress);
-
-  @override
-  List<Object?> get props => [progress];
-}
 
 class CharacterInitializedEvent extends CharacterControlsEvent {
   const CharacterInitializedEvent();

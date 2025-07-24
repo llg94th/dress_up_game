@@ -12,7 +12,6 @@ class CharacterControlsBloc extends Bloc<CharacterControlsEvent, CharacterContro
 
   CharacterControlsBloc({required this.game}) : super(const CharacterControlsInitial()) {
     on<InitializeCharacterControlsEvent>(_onInitialize);
-    on<UpdateLoadingProgressEvent>(_onUpdateLoadingProgress);
     on<CharacterInitializedEvent>(_onCharacterInitialized);
     on<LayerVisibilityToggleEvent>(_onLayerVisibilityToggle);
     on<SelectPreviousItemEvent>(_onSelectPreviousItem);
@@ -31,34 +30,17 @@ class CharacterControlsBloc extends Bloc<CharacterControlsEvent, CharacterContro
     Emitter<CharacterControlsState> emit,
   ) async {
     if (!game.isInitialized) {
-      // Start checking for initialization with progress updates
-      _initCheckTimer = Timer.periodic(
-        const Duration(milliseconds: 100),
-        (timer) {
-          if (game.isInitialized) {
-            timer.cancel();
-            add(const CharacterInitializedEvent());
-          } else {
-            // Update progress during loading
-            add(UpdateLoadingProgressEvent(game.loadingProgress));
-          }
-        },
-      );
-      
-      // Emit initial loading state
-      emit(CharacterControlsLoading(game.loadingProgress));
-    } else {
-      // Already initialized
-      add(const CharacterInitializedEvent());
+      // Wait for game to be initialized
+      while (!game.isInitialized) {
+        await Future.delayed(const Duration(milliseconds: 100));
+      }
     }
+    
+    // Game is initialized, load character data
+    add(const CharacterInitializedEvent());
   }
 
-  Future<void> _onUpdateLoadingProgress(
-    UpdateLoadingProgressEvent event,
-    Emitter<CharacterControlsState> emit,
-  ) async {
-    emit(CharacterControlsLoading(event.progress));
-  }
+
 
   Future<void> _onCharacterInitialized(
     CharacterInitializedEvent event,

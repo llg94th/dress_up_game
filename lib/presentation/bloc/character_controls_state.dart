@@ -12,14 +12,7 @@ class CharacterControlsInitial extends CharacterControlsState {
   const CharacterControlsInitial();
 }
 
-class CharacterControlsLoading extends CharacterControlsState {
-  final double progress;
 
-  const CharacterControlsLoading(this.progress);
-
-  @override
-  List<Object?> get props => [progress];
-}
 
 class CharacterControlsLoaded extends CharacterControlsState {
   final List<String> availableGroups;
