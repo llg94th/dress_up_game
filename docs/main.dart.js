@@ -32509,7 +32509,7 @@ oN(){var s=0,r=A.M(t.Rk),q,p=2,o,n,m,l,k,j,i
 var $async$oN=A.N(function(a,b){if(a===1){o=b
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.S($.qy().a4r("metadata.json"),$async$oN)
+return A.S($.qy().a4r("assets/metadata.json"),$async$oN)
 case 7:n=b
 m=B.cA.eK(n)
 k=J.nb(m,new A.Oa(),t.pR)

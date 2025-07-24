@@ -11,7 +11,7 @@ class AssetRepositoryImpl implements AssetRepository {
   @override
   Future<List<AssetMetadata>> loadMetadata() async {
     try {
-      final String jsonString = await rootBundle.loadString('metadata.json');
+      final String jsonString = await rootBundle.loadString('assets/metadata.json');
       final List<dynamic> jsonList = json.decode(jsonString);
       
       return jsonList
