@@ -4,6 +4,11 @@ import '../repositories/asset_repository.dart';
 import 'package:flutter/material.dart';
 
 class CharacterService {
+
+  CharacterService._(this._repository);
+  static final CharacterService _instance = CharacterService._(AssetRepositoryImpl());
+  static CharacterService get instance => _instance;
+
   final AssetRepository _repository;
   Map<String, CharacterLayer> _layers = {};
   

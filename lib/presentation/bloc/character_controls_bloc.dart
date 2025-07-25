@@ -1,16 +1,16 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import '../../core/game/dress_up_game.dart';
 import '../../core/models/character_layer.dart';
+import '../../core/services/character_service.dart';
+import '../../core/services/sprite_cache_service.dart';
 import 'character_controls_event.dart';
 import 'character_controls_state.dart';
 
 class CharacterControlsBloc extends Bloc<CharacterControlsEvent, CharacterControlsState> {
-  final DressUpGame game;
   Timer? _initCheckTimer;
 
-  CharacterControlsBloc({required this.game}) : super(const CharacterControlsInitial()) {
+  CharacterControlsBloc() : super(const CharacterControlsInitial()) {
     on<InitializeCharacterControlsEvent>(_onInitialize);
     on<CharacterInitializedEvent>(_onCharacterInitialized);
     on<LayerVisibilityToggleEvent>(_onLayerVisibilityToggle);
@@ -18,6 +18,9 @@ class CharacterControlsBloc extends Bloc<CharacterControlsEvent, CharacterContro
     on<SelectNextItemEvent>(_onSelectNextItem);
     on<ExportCharacterEvent>(_onExportCharacter);
   }
+
+  final SpriteCacheService _spriteCacheService = SpriteCacheService.instance;
+  final CharacterService _characterService = CharacterService.instance;
 
   @override
   Future<void> close() {
@@ -29,14 +32,8 @@ class CharacterControlsBloc extends Bloc<CharacterControlsEvent, CharacterContro
     InitializeCharacterControlsEvent event,
     Emitter<CharacterControlsState> emit,
   ) async {
-    if (!game.isInitialized) {
-      // Wait for game to be initialized
-      while (!game.isInitialized) {
-        await Future.delayed(const Duration(milliseconds: 100));
-      }
-    }
+    await _spriteCacheService.preloadSprites();
     
-    // Game is initialized, load character data
     add(const CharacterInitializedEvent());
   }
 
@@ -47,11 +44,11 @@ class CharacterControlsBloc extends Bloc<CharacterControlsEvent, CharacterContro
     Emitter<CharacterControlsState> emit,
   ) async {
     try {
-      final availableGroups = game.characterService.availableGroups;
+      final availableGroups = _characterService.availableGroups;
       final layers = <String, CharacterLayer>{};
       
       for (final groupName in availableGroups) {
-        final layer = game.characterService.getLayer(groupName);
+        final layer = _characterService.getLayer(groupName);
         if (layer != null) {
           layers[groupName] = layer;
         }
@@ -74,19 +71,19 @@ class CharacterControlsBloc extends Bloc<CharacterControlsEvent, CharacterContro
       final currentState = state;
       if (currentState is! CharacterControlsLoaded && currentState is! CharacterControlsUpdated) return;
 
-      final layer = game.characterService.getLayer(event.groupName);
+      final layer = _characterService.getLayer(event.groupName);
       if (layer == null) return;
 
       debugPrint('CharacterControlsBloc: Toggle visibility for ${event.groupName} (current: ${layer.isVisible})');
 
       if (layer.isVisible) {
-        game.characterService.hideLayer(event.groupName);
+        _characterService.hideLayer(event.groupName);
       } else {
-        game.characterService.showLayer(event.groupName);
+        _characterService.showLayer(event.groupName);
       }
 
       // Get the updated layer after visibility change
-      final updatedLayer = game.characterService.getLayer(event.groupName);
+      final updatedLayer = _characterService.getLayer(event.groupName);
       if (updatedLayer == null) return;
 
       debugPrint('CharacterControlsBloc: After toggle - new visibility: ${updatedLayer.isVisible}');
@@ -126,7 +123,7 @@ class CharacterControlsBloc extends Bloc<CharacterControlsEvent, CharacterContro
       final currentState = state;
       if (currentState is! CharacterControlsLoaded && currentState is! CharacterControlsUpdated) return;
 
-      final layer = game.characterService.getLayer(event.groupName);
+      final layer = _characterService.getLayer(event.groupName);
       if (layer == null || layer.items.isEmpty) return;
 
       debugPrint('CharacterControlsBloc: Previous clicked for ${event.groupName} (current index: ${layer.selectedIndex})');
@@ -168,7 +165,7 @@ class CharacterControlsBloc extends Bloc<CharacterControlsEvent, CharacterContro
       final currentState = state;
       if (currentState is! CharacterControlsLoaded && currentState is! CharacterControlsUpdated) return;
 
-      final layer = game.characterService.getLayer(event.groupName);
+      final layer = _characterService.getLayer(event.groupName);
       if (layer == null || layer.items.isEmpty) return;
 
       debugPrint('CharacterControlsBloc: Next clicked for ${event.groupName} (current index: ${layer.selectedIndex})');

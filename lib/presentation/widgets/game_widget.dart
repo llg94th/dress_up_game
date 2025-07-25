@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flame/game.dart';
 import '../../core/game/dress_up_game.dart';
-import 'character_controls.dart';
 import 'character_controls_overlay.dart';
 import 'controls_backdrop_overlay.dart';
 import 'controls_toggle_overlay.dart';

@@ -12,7 +12,7 @@ class LoadingOverlay extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return StreamBuilder<double>(
-      stream: _loadingProgressStream(),
+      stream: game.loadingProgressStream,
       builder: (context, snapshot) {
         final progress = snapshot.data ?? 0.0;
         final progressPercentage = (progress * 100).toInt();
@@ -140,14 +140,5 @@ class LoadingOverlay extends StatelessWidget {
         );
       },
     );
-  }
-
-  Stream<double> _loadingProgressStream() async* {
-    while (!game.isInitialized) {
-      yield game.loadingProgress;
-      await Future.delayed(const Duration(milliseconds: 100));
-    }
-    // Final yield to ensure UI updates
-    yield 1.0;
   }
 } 

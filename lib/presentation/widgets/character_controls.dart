@@ -19,7 +19,7 @@ class CharacterControls extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
-      create: (context) => CharacterControlsBloc(game: game)
+      create: (context) => CharacterControlsBloc()
         ..add(const InitializeCharacterControlsEvent()),
       child: BlocListener<CharacterControlsBloc, CharacterControlsState>(
         listener: (context, state) {
